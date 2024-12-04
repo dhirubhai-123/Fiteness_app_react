@@ -213,7 +213,11 @@ const Navbar = () => {
 
         <div className='flex justify-around items-center gap-8 font-semibold text-xl'>
           <div className='hover:font-bold hover:scale-125 hover:text-slate-800 hover:cursor-pointer'>Home</div>
-          <div className='hover:font-bold hover:scale-125 hover:text-slate-800 hover:cursor-pointer' onClick={() => { updateShowFavExercises(true) }}>Fav-Exercises
+          <div className='hover:font-bold hover:scale-125 hover:text-slate-800 hover:cursor-pointer'
+            onClick={() => {
+              // updateShowFavExercises(true)
+              alert("These function is currently not available !!")
+            }}>Fav-Exercises
             {
               (favExercisesValue.favExercises) &&
               favExercisesValue.favExercises.length > 0 &&

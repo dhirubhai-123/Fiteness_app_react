@@ -36,10 +36,6 @@ const ExercisesHomePage = ({ allExercises, titleForExercises }) => {
         }
     }, [addedToFavs])
 
-    useEffect(() => {
-        console.log(favExercisesValue)
-    }, [])
-
     const handleFavClicked = (event, exercise) => {
         event.stopPropagation();
 
@@ -77,7 +73,9 @@ const ExercisesHomePage = ({ allExercises, titleForExercises }) => {
                                 {/* These part will add exercise to favExercises if user click on it */}
                                 < div className='flex justify-center m-2 items-center h-8 w-8 hover:scale-110'
                                     onClick={(event) => {
-                                        handleFavClicked(event, exercise)
+                                        // handleFavClicked(event, exercise)
+                                        event.stopPropagation();
+                                        alert("Currently, these function is not available !!")
                                     }}
                                 >
                                     <img src="https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/icons/heart.png" alt="heart" className='hover:outline-1 hover:outline-dashed hover:outline-red-500 hover:rounded-md hover:bg-red-50' />
