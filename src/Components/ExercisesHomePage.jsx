@@ -52,7 +52,6 @@ const ExercisesHomePage = ({ allExercises, titleForExercises }) => {
 
                 localStorage.setItem('favExercises', JSON.stringify(favExercisesValue.favExercises));
                 // console.log('Item added:', exercise);
-
             }
         }
     };
