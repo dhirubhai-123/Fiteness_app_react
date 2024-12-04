@@ -36,6 +36,9 @@ const ExercisesHomePage = ({ allExercises, titleForExercises }) => {
         }
     }, [addedToFavs])
 
+    useEffect(() => {
+        console.log(favExercisesValue)
+    }, [])
 
     const handleFavClicked = (event, exercise) => {
         event.stopPropagation();
