@@ -78,7 +78,7 @@ const ExercisesHomePage = ({ allExercises, titleForExercises }) => {
                                         handleFavClicked(event, exercise)
                                     }}
                                 >
-                                    <img src="https://github.com/dhirubhai-123/Fiteness_app_react/blob/main/src/assets/assets/icons/heart.png" alt="heart" className='hover:outline-1 hover:outline-dashed hover:outline-red-500 hover:rounded-md hover:bg-red-50' />
+                                    <img src="https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/icons/heart.png" alt="heart" className='hover:outline-1 hover:outline-dashed hover:outline-red-500 hover:rounded-md hover:bg-red-50' />
                                 </div>
 
                                 <CardMedia component="img" height="140" image={exercise.gifUrl} alt={exercise.name}
@@ -102,7 +102,7 @@ const ExercisesHomePage = ({ allExercises, titleForExercises }) => {
                                 <h2 className="text-xl font-bold">{selectedExercise.name}
                                 </h2>
                                 <div className='flex justify-between gap-x-2 items-center'>
-                                    <img src="https://github.com/dhirubhai-123/Fiteness_app_react/blob/main/src/assets/assets/icons/heart.png" alt="heart" className='h-7 w-9 rounded-md hover:cursor-pointer bg-white px-1 hover:shadow-md hover:shadow-slate-400 hover:scale-110'
+                                    <img src="https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/icons/heart.png" alt="heart" className='h-7 w-9 rounded-md hover:cursor-pointer bg-white px-1 hover:shadow-md hover:shadow-slate-400 hover:scale-110'
                                         onClick={(event) => {
                                             handleFavClicked(event, selectedExercise)
                                         }}

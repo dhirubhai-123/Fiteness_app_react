@@ -39,7 +39,7 @@ const DefaultBodyParts = ({ allBodyParts }) => {
                         <div key={index} className="w-48 flex-shrink-0 m-4 p-4 bg-white rounded-lg shadow-lg text-center hover:scale-105 hover:shadow-2xl hover:cursor-pointer"
                             onClick={() => { updateBodyPart(part.name) }}
                         >
-                            <img src="src\assets\assets\icons\dumbell.png" alt={part.name} className="w-full h-28 object-contain rounded-md mb-2" />
+                            <img src="https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/icons/dumbell.png" alt={part.name} className="w-full h-28 object-contain rounded-md mb-2" />
                             <h2 className="text-lg font-bold">{part.name}</h2>
                         </div>
                     ))

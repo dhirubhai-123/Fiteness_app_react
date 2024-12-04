@@ -16,7 +16,7 @@ function ShowMessageForFav({ message, updateAddedToFavs }) {
                     <Toast.Header className='space-x-4'>
                         <div className="flex justify-between">
                             <img
-                                src="src\assets\assets\icons\strong.png"
+                                src="https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/icons/strong.png"
                                 className="rounded me-2 h-8 w-8 invert"
                                 alt=""
                             />

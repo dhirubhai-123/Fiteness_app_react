@@ -205,7 +205,7 @@ const Navbar = () => {
         <div >
           <NavLink to="/" className='flex justify-center items-center' >
             <div>
-              <img src="https://github.com/dhirubhai-123/Fiteness_app_react/blob/main/src/assets/assets/images/Logo.png" alt="img" />
+              <img src="https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Logo.png" alt="img" />
             </div>
             <div className='text-3xl text-red-500 px-2 font-bold space-x-1 hover:cursor-pointer'>FitFuesion</div>
           </NavLink>
@@ -266,7 +266,7 @@ const Navbar = () => {
         </div>
 
         <div className='lg:w-[33vw] object-cover'>
-          <img src="https://github.com/dhirubhai-123/Fiteness_app_react/blob/main/src/assets/assets/images/banner.png" alt="" />
+          <img src="https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/banner.png" alt="" />
         </div>
 
       </div>
