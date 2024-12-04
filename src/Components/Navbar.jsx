@@ -215,6 +215,7 @@ const Navbar = () => {
           <div className='hover:font-bold hover:scale-125 hover:text-slate-800 hover:cursor-pointer'>Home</div>
           <div className='hover:font-bold hover:scale-125 hover:text-slate-800 hover:cursor-pointer' onClick={() => { updateShowFavExercises(true) }}>Fav-Exercises
             {
+              (favExercisesValue.favExercises) &&
               favExercisesValue.favExercises.length > 0 &&
               <span className='relative bottom-2 border border-red-600 rounded-full px-1 text-sm'>{favExercisesValue.favExercises.length}</span>
             }
