@@ -14,9 +14,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           <div className="w-full lg:w-1/3 mb-6 lg:mb-0">
-            <img src="src\assets\assets\images\Logo.png" alt="FitFusion Logo" className="invert h-12 w-12 mb-4" />
+            <img src="https://github.com/dhirubhai-123/Fiteness_app_react/blob/main/src/assets/assets/images/Logo.png" alt="FitFuesion Logo" className="invert h-12 w-12 mb-4" />
             <p className="text-gray-400">
-              FitFusion - Your Partner in Fitness.
+              FitFuesion - Your Partner in Fitness.
             </p>
           </div>
           <div className="w-full lg:w-2/3 flex flex-wrap justify-around">
