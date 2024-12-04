@@ -40,17 +40,17 @@ const ExercisesHomePage = ({ allExercises, titleForExercises }) => {
     const handleFavClicked = (event, exercise) => {
         event.stopPropagation();
 
-        const itemExists = favExercises.find((item) => item.exerciseId === exercise.exerciseId);
-        if (!itemExists) {
-            updateFavExercises([...favExercises, exercise]);
-            updateAddedToFavs(true)
-            updateMessage(`"${exercise.name}" added into favs`)
+        if (favExercises) {
+            const itemExists = favExercises.find((item) => item.exerciseId === exercise.exerciseId);
+            if (!itemExists) {
+                updateFavExercises([...favExercises, exercise]);
+                updateAddedToFavs(true)
+                updateMessage(`"${exercise.name}" added into favs`)
 
-            localStorage.setItem('favExercises', JSON.stringify(favExercisesValue.favExercises));
-            // console.log('Item added:', exercise);
+                localStorage.setItem('favExercises', JSON.stringify(favExercisesValue.favExercises));
+                // console.log('Item added:', exercise);
 
-        } else {
-            // console.log('Item already exists:', exercise);
+            }
         }
     };
 
