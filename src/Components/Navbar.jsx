@@ -19,7 +19,7 @@ const Navbar = () => {
         exerciseId: "exercise1",
         name: "Barbell Squat",
         instructions: ["Stand with feet shoulder-width apart.", "Lower your body by bending your knees and hips.", "Keep your chest up and back straight.", "Push through your heels to return to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\Barbell-Back-Squat gif.webp",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Barbell-Back-Squat gif.webp",
         bodyparts: ["Legs"],
         targetMuscles: ["Quadriceps", "Hamstrings", "Glutes"],
         secondaryMuscles: ["Calves", "Lower Back"]
@@ -28,7 +28,7 @@ const Navbar = () => {
         exerciseId: "exercise2",
         name: "Bench Press",
         instructions: ["Lie on a bench with feet flat on the floor.", "Hold a barbell with hands shoulder-width apart.", "Lower the bar to your chest.", "Press the bar back up to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\Bench Press.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Bench Press.gif",
         bodyparts: ["Chest"],
         targetMuscles: ["Pectoralis Major", "Triceps"],
         secondaryMuscles: ["Shoulders", "Anchors"]
@@ -37,7 +37,7 @@ const Navbar = () => {
         exerciseId: "exercise3",
         name: "Deadlift",
         instructions: ["Stand with feet hip-width apart.", "Bend at your hips and knees to lower the barbell to your shins.", "Keep your back straight and chest up.", "Lift the bar by straightening your hips and knees."],
-        gifUrl: "src\\assets\\assets\\images\\Deadlift gif.webp",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Deadlift gif.webp",
         bodyparts: ["Back"],
         targetMuscles: ["Latissimus Dorsi", "Glutes"],
         secondaryMuscles: ["Hamstrings", "Lower Back"]
@@ -46,7 +46,7 @@ const Navbar = () => {
         exerciseId: "exercise4",
         name: "Overhead Press",
         instructions: ["Stand with feet shoulder-width apart.", "Hold a barbell at shoulder height.", "Press the bar overhead until your arms are fully extended.", "Lower the bar back to shoulder height."],
-        gifUrl: "src\\assets\\assets\\images\\Overhead Press gif.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Overhead Press gif.gif",
         bodyparts: ["Shoulders"],
         targetMuscles: ["Deltoids"],
         secondaryMuscles: ["Triceps", "Upper Chest"]
@@ -55,7 +55,7 @@ const Navbar = () => {
         exerciseId: "exercise5",
         name: "Pull-Up",
         instructions: ["Hang from a bar with hands shoulder-width apart.", "Pull your body up until your chin is above the bar.", "Lower yourself back down to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\Pull-Up gif.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Pull-Up gif.gif",
         bodyparts: ["Back"],
         targetMuscles: ["Latissimus Dorsi"],
         secondaryMuscles: ["Biceps", "Shoulders"]
@@ -64,7 +64,7 @@ const Navbar = () => {
         exerciseId: "exercise6",
         name: "Bicep Curl",
         instructions: ["Stand with feet shoulder-width apart.", "Hold a dumbbell in each hand with palms facing forward.", "Curl the weights while keeping your upper arms stationary.", "Lower the weights back to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\biceps-curl gif.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/biceps-curl gif.gif",
         bodyparts: ["Arms"],
         targetMuscles: ["Biceps"],
         secondaryMuscles: ["Forearms"]
@@ -73,7 +73,7 @@ const Navbar = () => {
         exerciseId: "exercise7",
         name: "Tricep Extension",
         instructions: ["Stand with feet shoulder-width apart.", "Hold a dumbbell with both hands behind your head.", "Extend your arms to lift the dumbbell overhead.", "Lower the dumbbell back to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\Tricep Extension gif.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Tricep Extension gif.gif",
         bodyparts: ["Arms"],
         targetMuscles: ["Triceps"],
         secondaryMuscles: ["Shoulders"]
@@ -82,7 +82,7 @@ const Navbar = () => {
         exerciseId: "exercise8",
         name: "Leg Press",
         instructions: ["Sit in a leg press machine with feet on the platform.", "Lower the platform by bending your knees.", "Push through your heels to return to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\Leg Press gif.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Leg Press gif.gif",
         bodyparts: ["Legs"],
         targetMuscles: ["Quadriceps", "Hamstrings"],
         secondaryMuscles: ["Glutes", "Calves"]
@@ -91,7 +91,7 @@ const Navbar = () => {
         exerciseId: "exercise9",
         name: "Lateral Raise",
         instructions: ["Stand with feet shoulder-width apart.", "Hold a dumbbell in each hand with arms hanging down.", "Raise your arms to the sides until they are parallel to the ground.", "Lower your arms back to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\single-leg-calf-raise.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/single-leg-calf-raise.gif",
         bodyparts: ["Shoulders"],
         targetMuscles: ["Deltoids"],
         secondaryMuscles: ["Traps"]
@@ -100,7 +100,7 @@ const Navbar = () => {
         exerciseId: "exercise10",
         name: "Calf Raise",
         instructions: ["Stand with feet shoulder-width apart.", "Rise up onto your toes.", "Lower your heels back to the ground."],
-        gifUrl: "src\\assets\\assets\\images\\single_calf raise gif.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/single_calf raise gif.gif",
         bodyparts: ["Legs"],
         targetMuscles: ["Calves"],
         secondaryMuscles: ["Achilles Tendon"]
@@ -109,7 +109,7 @@ const Navbar = () => {
         exerciseId: "exercise11",
         name: "Dumbbell Lunges",
         instructions: ["Stand with feet shoulder-width apart.", "Step forward with one leg and lower your hips.", "Push back to the starting position.", "Repeat with the other leg."],
-        gifUrl: "src\\assets\\assets\\images\\Dumbbell front lunges.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Dumbbell front lunges.gif",
         bodyparts: ["Legs"],
         targetMuscles: ["Quadriceps", "Glutes"],
         secondaryMuscles: ["Hamstrings", "Calves"]
@@ -118,7 +118,7 @@ const Navbar = () => {
         exerciseId: "exercise12",
         name: "Lat Pulldown",
         instructions: ["Sit at a lat pulldown machine.", "Grab the bar with a wide grip.", "Pull the bar down to your chest.", "Slowly return to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\lap_pull_down_gif.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/lap_pull_down_gif.gif",
         bodyparts: ["Back"],
         targetMuscles: ["Latissimus Dorsi"],
         secondaryMuscles: ["Biceps", "Middle Back"]
@@ -128,7 +128,7 @@ const Navbar = () => {
         name: "Chest Fly",
         instructions: ["Lie on a bench with dumbbells in each hand.", "Extend your arms above your chest.", "Lower the weights to the sides of your chest.", "Return to the starting position."],
         // gifUrl: "https://cdn-exercisedb.vercel.app/api/v1/images/lJJ7Yq8.gif",
-        gifUrl: "src\\assets\\assets\\images\\Dumbbell-chest-fly gif.webp",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Dumbbell-chest-fly gif.webp",
         bodyparts: ["Chest"],
         targetMuscles: ["Pectoralis Major"],
         secondaryMuscles: ["Shoulders", "Biceps"]
@@ -137,7 +137,7 @@ const Navbar = () => {
         exerciseId: "exercise14",
         name: "Seated Row",
         instructions: ["Sit at a seated row machine.", "Grab the handle with both hands.", "Pull the handle towards your torso.", "Slowly return to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\Seated Cable Row gif.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Seated Cable Row gif.gif",
         bodyparts: ["Back"],
         targetMuscles: ["Latissimus Dorsi"],
         secondaryMuscles: ["Biceps", "Middle Back"]
@@ -146,7 +146,7 @@ const Navbar = () => {
         exerciseId: "exercise15",
         name: "Plank",
         instructions: ["Position yourself on your elbows and toes.", "Keep your body in a straight line.", "Hold this position for as long as possible."],
-        gifUrl: "src\\assets\\assets\\images\\plank gif.jpg",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/plank gif.jpg",
         bodyparts: ["Core"],
         targetMuscles: ["Abdominals"],
         secondaryMuscles: ["Lower Back", "Shoulders"]
@@ -155,7 +155,7 @@ const Navbar = () => {
         exerciseId: "exercise16",
         name: "Hammer Curl",
         instructions: ["Stand with feet shoulder-width apart.", "Hold a dumbbell in each hand with palms facing inwards.", "Curl the weights while keeping your upper arms stationary.", "Lower the weights back to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\Hammer Curl gif.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Hammer Curl gif.gif",
         bodyparts: ["Arms"],
         targetMuscles: ["Biceps", "Brachialis"],
         secondaryMuscles: ["Forearms"]
@@ -164,7 +164,7 @@ const Navbar = () => {
         exerciseId: "exercise17",
         name: "Glute Bridge",
         instructions: ["Lie on your back with knees bent.", "Lift your hips towards the ceiling.", "Squeeze your glutes at the top.", "Lower your hips back to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\Glute Bridge gif.webp",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Glute Bridge gif.webp",
         bodyparts: ["Legs"],
         targetMuscles: ["Glutes", "Hamstrings"],
         secondaryMuscles: ["Lower Back"]
@@ -173,7 +173,7 @@ const Navbar = () => {
         exerciseId: "exercise18",
         name: "Russian Twist",
         instructions: ["Sit on the floor with knees bent.", "Lean back slightly and lift your feet.", "Twist your torso to the right, then to the left."],
-        gifUrl: "src\\assets\\assets\\images\\Russian Twist gif.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Russian Twist gif.gif",
         bodyparts: ["Core"],
         targetMuscles: ["Obliques"],
         secondaryMuscles: ["Abdominals", "Lower Back"]
@@ -182,7 +182,7 @@ const Navbar = () => {
         exerciseId: "exercise19",
         name: "Face Pull",
         instructions: ["Attach a rope to a cable machine at face height.", "Grab the rope with both hands.", "Pull the rope towards your face.", "Slowly return to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\Face Pull gif.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Face Pull gif.gif",
         bodyparts: ["Shoulders"],
         targetMuscles: ["Rear Deltoids"],
         secondaryMuscles: ["Traps", "Biceps"]
@@ -191,7 +191,7 @@ const Navbar = () => {
         exerciseId: "exercise20",
         name: "Leg Curl",
         instructions: ["Lie face down on a leg curl machine.", "Hook your ankles under the padded lever.", "Curl your legs up towards your glutes.", "Slowly return to the starting position."],
-        gifUrl: "src\\assets\\assets\\images\\Leg Curl gif.gif",
+        gifUrl: "https://raw.githubusercontent.com/dhirubhai-123/Fiteness_app_react/refs/heads/main/src/assets/assets/images/Leg Curl gif.gif",
         bodyparts: ["Legs"],
         targetMuscles: ["Hamstrings"],
         secondaryMuscles: ["Calves"]
